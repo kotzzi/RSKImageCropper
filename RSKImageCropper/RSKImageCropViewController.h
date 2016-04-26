@@ -55,6 +55,9 @@ typedef NS_ENUM(NSUInteger, RSKImageCropMode) {
  */
 - (instancetype)initWithImage:(UIImage *)originalImage cropMode:(RSKImageCropMode)cropMode;
 
+- (void)cancelCrop;
+- (void)cropImage;
+
 ///-----------------------------
 /// @name Accessing the Delegate
 ///-----------------------------
